@@ -13,7 +13,7 @@ This analysis will help Pewlett Hackard by generating a list of all employees el
 ## Results
 
 From the analysis: 
-* A little over 72,458 employees from Pewlett Hackard will be retiring.
+* 72,458 employees from Pewlett Hackard will be retiring.
 
 * A total of 7 different titles will be affected as a results of the employees retiring. Figure 1 elaborates on the title names.
  
@@ -21,4 +21,15 @@ From the analysis:
 
 * Majority of the employees retiring are senior engineers and senior staffs.
 
-{Figure 1}![
+![Figure 1](https://github.com/Elfreda2019/Pewlett-Hackard-Analysis/blob/main/retiring_titles.png)
+
+Table 1, list of retiring titles.
+
+
+## Summary
+
+72,458 new roles will be needed to be filled as the rapid rate of retirement begins to make impact.
+
+Comparing the total number of retiree and those eligible for the mentoriship program, there are not enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees. Table 2 givea a glimpse of the list of employees qualified for the mentorship program.
+
+![Table 2](
