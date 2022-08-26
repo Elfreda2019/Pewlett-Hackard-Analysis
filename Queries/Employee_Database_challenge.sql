@@ -56,3 +56,28 @@ WHERE to_date = '9999-01-01'
 ORDER BY emp_no, to_date DESC;
 
 SELECT * FROM unique_titles
+
+--list of the number of titles of emloyees retiring.
+SELECT COUNT(emp_no), title
+INTO retiring_titles
+FROM unique_titles
+GROUP BY title 
+ORDER BY COUNT(emp_no) DESC;
+
+
+--employees eligible for mentorship program
+SELECT DISTINCT ON(e.emp_no)e.emp_no,
+	e.first_name,
+	e.last_name,
+	e.birth_date,
+	de.from_date,
+	de.to_date,
+	ti.title
+INTO mentorship_eligibilty	
+FROM employees as e
+JOIN dept_emp as de ON de.emp_no = e.emp_no
+JOIN titles as ti ON ti.emp_no = e.emp_no
+	WHERE (e.birth_date BETWEEN '1965-01-01' AND '1965-12-31') 
+	AND (de.to_date = '9999-01-01')
+ORDER BY e.emp_no;
+
