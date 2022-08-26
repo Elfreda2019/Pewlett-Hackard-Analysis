@@ -32,4 +32,6 @@ Table 1, list of retiring titles.
 
 Comparing the total number of retiree and those eligible for the mentoriship program, there are not enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees. Table 2 givea a glimpse of the list of employees qualified for the mentorship program.
 
-![Table 2](
+![Table 2](https://github.com/Elfreda2019/Pewlett-Hackard-Analysis/blob/main/mentorship.png)
+
+Table 2, list of retirement ready employee eligible for mentorship program.
