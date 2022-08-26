@@ -20,3 +20,5 @@ From the analysis:
 * Out of the 72,458 employees retiring 1549 of them are eligible for the retirement package which is the mentorship program.
 
 * Majority of the employees retiring are senior engineers and senior staffs.
+
+{Figure 1}![
